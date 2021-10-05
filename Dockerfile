@@ -14,6 +14,8 @@ RUN apt-get install -y php-common
 RUN apt-get install -y php-mbstring 
 RUN apt-get install -y composer
 RUN apt-get install -y memcached
+RUN apt-get install -y sudo
+RUN apt-get install -y vim.tiny 
 COPY starterscripts/ /tmp/starterscripts/
 COPY poc/ /var/www/html/
 RUN ls -al /var/www/html
