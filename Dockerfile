@@ -6,7 +6,7 @@ RUN apt-get install php-curl -y
 RUN apt-get install -y apache2
 RUN apt-get install -y php 
 RUN apt-get install -y php-dev 
-RUN apt-get install -y php-memcached 
+RUN apt-get install -y php-memcache
 RUN apt-get install -y libapache2-mod-php 
 RUN apt-get install -y php-curl 
 RUN apt-get install -y php-json 
