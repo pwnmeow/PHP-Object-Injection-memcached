@@ -5,9 +5,6 @@
 
 $tmp_dir = ini_get('upload_tmp_dir') ? ini_get('upload_tmp_dir') : sys_get_temp_dir();
 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
 // code refactor needed.
 // require_once('colours.php');
 require('auth.php');
