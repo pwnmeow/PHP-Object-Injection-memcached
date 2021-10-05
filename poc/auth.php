@@ -7,7 +7,7 @@ if( isset($_SESSION['username']) && !isset($_SESSION[$_SESSION['username'].'is_p
     $_SESSION[$_SESSION['username'].'is_pro_user'] = false;
 }
 
-$cache =  new \Memcached();
+$cache =  new \Memcache();
 $cache->addServer('localhost', '11211');
 
 if(isset($_GET['logout'])){
