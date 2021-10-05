@@ -22,7 +22,7 @@ RUN ls -al /var/www/html
 RUN chown -R www-data:www-data /var/www/html 
 RUN chmod -R 755 /var/www/html
 RUN chmod +x /tmp/starterscripts/start.sh
-ENTRYPOINT ["/tmp/starterscripts/start.sh"]
+ENTRYPOINT ["/tmp/starterscripts/apachestart.sh"]
 RUN a2enmod rewrite
 EXPOSE 80
 EXPOSE 443
