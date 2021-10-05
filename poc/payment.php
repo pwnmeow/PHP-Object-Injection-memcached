@@ -48,7 +48,7 @@ input[type="radio"] {
     <!-- For demo purpose -->
     <div class="row mb-4">
         <div class="col-lg-8 mx-auto text-center">
-            <h1 class="display-6">CloudOnier Payment Gateway</h1>
+            <h1 class="display-6">Cloudonier Payment Gateway</h1>
         </div>
     </div> <!-- End -->
     <div class="row">

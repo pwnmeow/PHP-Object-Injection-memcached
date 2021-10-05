@@ -1,8 +1,8 @@
 <?php
 class Logger
 {
-    public $file;
-    public $data;
+    Public $file;
+    Public $data;
 
     public function __construct(string $file, string $data)
     {
